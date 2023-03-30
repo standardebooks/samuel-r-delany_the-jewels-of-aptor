@@ -31,43 +31,42 @@
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85118629</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Science Fiction</meta>
+		<dc:description id="description">Four companions travel to the mysterious island of Aptor in search of a jewel.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;At the command of the goddess Argo, the poet Geo and his companions Urson, Snake, and Iimmi travel to the island of Aptor to steal a powerful jewel from the god Hama. They contend with monsters, mystery, and the ruins of an earlier age, but their quest is not what it seems.&lt;/p&gt;
+			&lt;p&gt;In &lt;a href="https://standardebooks.org/ebooks/samuel-r-delany"&gt;Samuel R. Delany’s&lt;/a&gt; first published novel, written when he was a teenager, we see many of the concerns that have occupied him in later work, whether science fiction, fantasy, mundane fiction, literary criticism, or memoir: language, poetry, perception, and tensions between worldviews, wrapped in gorgeously poetic prose. This text is that of the original publication, half of an Ace Double.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/41981</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">Page scans were not available.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Jewels_of_Aptor</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/samuel-r-delany_the-jewels-of-aptor</meta>
 		<dc:creator id="author">Samuel R. Delany</dc:creator>
 		<meta property="file-as" refines="#author">Delany, Samuel R.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Samuel_R._Delany</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79111493</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Victor Westerholm</dc:contributor>
+		<meta property="file-as" refines="#artist">Westerholm, Victor</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Victor_Westerholm</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n93106131</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Greg Weeks</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Weeks, Greg</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-3">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Ben Steinberg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Steinberg, Ben</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/bensteinberg/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
