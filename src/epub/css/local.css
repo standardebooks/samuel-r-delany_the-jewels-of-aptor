@@ -23,3 +23,14 @@
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+.signage p{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.signage.continued p,
+.signage p + p{
+	font-variant-caps: all-small-caps;
+	text-indent: none;
+}
