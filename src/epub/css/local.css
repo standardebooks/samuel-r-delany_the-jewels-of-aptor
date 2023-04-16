@@ -34,3 +34,7 @@
 	font-variant-caps: all-small-caps;
 	text-indent: none;
 }
+
+q{
+	font-style: italic;
+}
