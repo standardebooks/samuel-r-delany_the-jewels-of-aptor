@@ -3,7 +3,15 @@
 	<file path="chapter-7.xhtml">
 		<ignore>
 			<code>t-011</code>
-			<reason>“Light Down The Ages” is the verbatim text of a sign</reason>
+			<reason>“Light Down The Ages” is the verbatim text of a sign.</reason>
+		</ignore>
+		<ignore>
+			<code>t-030</code>
+			<reason>Radio station call signs are not rendered with periods.</reason>
+		</ignore>
+		<ignore>
+			<code>t-032</code>
+			<reason>Period following initialism is not part of radio station call sign.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
