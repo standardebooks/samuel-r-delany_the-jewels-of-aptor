@@ -38,3 +38,7 @@ blockquote:not([epub|type]) p + p{
 q{
 	font-style: italic;
 }
+
+[epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
