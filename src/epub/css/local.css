@@ -24,13 +24,13 @@
 	display: none;
 }
 
-.signage p{
+blockquote:not([epub|type]) p{
 	text-align: center;
 	text-transform: uppercase;
 }
 
-.signage.continued p,
-.signage p + p{
+blockquote:not([epub|type]).continued p,
+blockquote:not([epub|type]) p + p{
 	font-variant-caps: all-small-caps;
 	text-indent: none;
 }
