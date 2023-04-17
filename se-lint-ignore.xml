@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-7.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>“Light Down The Ages” is the verbatim text of a sign</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
