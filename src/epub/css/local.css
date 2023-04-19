@@ -58,13 +58,43 @@ q{
 	font-style: italic;
 }
 
-blockquote:not([epub|type^="z3998"]) p{
+/* Full-page epigraphs */
+section[epub|type~="epigraph"]{
 	text-align: center;
-	text-transform: uppercase;
 }
 
-#chapter-7 blockquote p + p,
+section[epub|type~="epigraph"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+	text-align: initial;
+}
+
+@supports(display: flex){
+	section[epub|type~="epigraph"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="epigraph"] > *{
+		margin: 0;
+	}
+}
+/* End full-page epigraphs */
+
+blockquote.sign p{
+	font-variant: small-caps;
+	text-align: center;
+	text-indent: 0;
+}
+
 #chapter-7 blockquote:nth-of-type(2) p{
-	font-variant-caps: all-small-caps;
+	font-size: .8em;
 	text-indent: none;
 }
