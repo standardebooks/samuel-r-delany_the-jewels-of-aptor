@@ -35,7 +35,7 @@
 		<dc:description id="description">Four companions travel to the mysterious island of Aptor in search of a jewel.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;At the command of the goddess Argo, the poet Geo and his companions Urson, Snake, and Iimmi travel to the island of Aptor to steal a powerful jewel from the god Hama. They contend with monsters, mystery, and the ruins of an earlier age—but their quest is not what it seems.&lt;/p&gt;
-			&lt;p&gt;<i>The Jewels of Aptor</i> is &lt;a href="https://standardebooks.org/ebooks/samuel-r-delany"&gt;Samuel R. Delany’s&lt;/a&gt; first published novel, written when he was a teenager. In it we see many of the concerns that occupied him in later work: language, poetry, myth, perception, and tensions between worldviews, wrapped in gorgeously poetic prose.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Jewels of Aptor&lt;/i&gt; is &lt;a href="https://standardebooks.org/ebooks/samuel-r-delany"&gt;Samuel R. Delany’s&lt;/a&gt; first published novel, written when he was a teenager. In it we see many of the concerns that occupied him in later work: language, poetry, myth, perception, and tensions between worldviews, wrapped in gorgeously poetic prose.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/41981</dc:source>
