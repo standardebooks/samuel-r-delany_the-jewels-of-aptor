@@ -34,17 +34,6 @@
 	display: none;
 }
 
-blockquote:not([epub|type]) p{
-	text-align: center;
-	text-transform: uppercase;
-}
-
-blockquote:not([epub|type]).continued p,
-blockquote:not([epub|type]) p + p{
-	font-variant-caps: all-small-caps;
-	text-indent: none;
-}
-
 q{
 	font-style: italic;
 }
@@ -67,4 +56,15 @@ q{
 
 [epub|type~="epigraph"] cite i{
 	font-style: italic;
+}
+
+blockquote:not([epub|type^="z3998"]) p{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#chapter-7 blockquote p + p,
+#chapter-7 blockquote:nth-of-type(2) p{
+	font-variant-caps: all-small-caps;
+	text-indent: none;
 }
