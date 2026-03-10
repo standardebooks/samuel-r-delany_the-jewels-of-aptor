@@ -2,6 +2,7 @@
 <se-lint-ignore>
 	<file path="chapter-7.xhtml">
 		<ignore code="t-011">
+			<line>30</line>
 			<reason>“Light Down The Ages” is the verbatim text of a sign.</reason>
 		</ignore>
 	</file>
